@@ -8,3 +8,38 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.userinfo {
+	font-family: 'Lato', sans-serif;
+	list-style: none;
+}
+
+.fullname {
+	font-family: 'Lato', sans-serif;
+	font-size: 56px;
+
+}
+
+.quote {
+
+}
+
+.age {
+	margin-top: 25px;
+	font-size: 30px;
+	display: inline-block;
+	border-right: 1px solid black;
+	padding-right: 15px;
+}
+
+.location {
+	margin-top: 25px;
+	font-size: 30px;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.summary {
+	margin-top: 25px;
+	font-size: 44px;
+}
