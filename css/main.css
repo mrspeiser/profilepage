@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+.Profiletop {
+	margin-bottom: 25px;
+}
+
 .userinfo {
 	font-family: 'Lato', sans-serif;
 	list-style: none;
@@ -43,3 +47,28 @@ body {
 	margin-top: 25px;
 	font-size: 44px;
 }
+
+.post-container {
+}
+
+.post-img {
+
+}
+
+.post-text {
+	display: inline-block;
+}
+
+.posttitle {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+
+}
+
+.postdate {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+
+
