@@ -9,9 +9,67 @@ body {
   padding: 0;
 }
 
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+footer {
+	background-color: black;
+	margin-top: 50px;
+}
+
+footer ul h4{
+    color: white;
+ }
+
+footer ul li{
+    list-style: none;
+    padding: 5px;
+    color: white;
+ }
+
+ footer ul i{
+    color: white;
+ }
+
+.margin0 {
+	margin: 0px;
+}
+
 .Profiletop {
 	margin-bottom: 25px;
 }
+
+.user {
+	max-height: 455px;
+	overflow-y: auto;
+}
+
+.user::-webkit-scrollbar {
+    width: 12px;
+}
+
+.user::-webkit-scrollbar-track {
+      background-color: #FFFFFF;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.user::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+.user::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.user::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
 
 .userinfo {
 	font-family: 'Lato', sans-serif;
@@ -25,6 +83,7 @@ body {
 }
 
 .quote {
+	font-size: 16px;
 
 }
 
@@ -48,27 +107,69 @@ body {
 	font-size: 44px;
 }
 
-.post-container {
+.posts-container {
 }
 
-.post-img {
+.post-container {
+	display: block;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+	
+}
 
+
+.post-inner-container {
+	/*border: 1px solid blue;*/
+	display: flex;
+}
+
+
+.post-img {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
 }
 
 .post-text {
-	display: inline-block;
+	padding-left: 10px;
+	
+}
+.postdate {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .posttitle {
 	font-family: 'Lato', sans-serif;
-	font-size: 30px;
+	font-size: 18px;
+	display: inline-block;
+
 
 }
 
-.postdate {
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
+.post-actions {
+	display: block;
+	margin-top: 10px;
 }
 
+.post-actions-ul {
+	padding: 0;
+	display: flex;
+	
+
+}
+
+.post-actions-ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.comments-btn {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+}
 
 
